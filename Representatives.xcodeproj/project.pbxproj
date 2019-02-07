@@ -13,6 +13,8 @@
 		B6F0E301220CD1CE008494BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F0E2FF220CD1CE008494BE /* LaunchScreen.storyboard */; };
 		B6F0E30B220CD392008494BE /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F0E30A220CD392008494BE /* Representative.swift */; };
 		B6F0E30E220CD47F008494BE /* RepresentativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F0E30D220CD47F008494BE /* RepresentativeController.swift */; };
+		B6F0E311220CE672008494BE /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F0E310220CE672008494BE /* States.swift */; };
+		B6F0E313220CE69F008494BE /* StateListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F0E312220CE69F008494BE /* StateListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B6F0E302220CD1CE008494BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6F0E30A220CD392008494BE /* Representative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Representative.swift; sourceTree = "<group>"; };
 		B6F0E30D220CD47F008494BE /* RepresentativeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentativeController.swift; sourceTree = "<group>"; };
+		B6F0E310220CE672008494BE /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
+		B6F0E312220CE69F008494BE /* StateListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,7 @@
 				B6F0E2F6220CD1CA008494BE /* AppDelegate.swift */,
 				B6F0E30C220CD399008494BE /* Model */,
 				B6F0E309220CD1F9008494BE /* View */,
-				B6F0E30F220CD482008494BE /* Model Controller */,
+				B6F0E315220CE6BA008494BE /* Controller */,
 				B6F0E308220CD1EF008494BE /* Resources */,
 			);
 			path = Representatives;
@@ -87,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				B6F0E30A220CD392008494BE /* Representative.swift */,
+				B6F0E310220CE672008494BE /* States.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -97,6 +102,23 @@
 				B6F0E30D220CD47F008494BE /* RepresentativeController.swift */,
 			);
 			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		B6F0E314220CE6A4008494BE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B6F0E312220CE69F008494BE /* StateListTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B6F0E315220CE6BA008494BE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B6F0E314220CE6A4008494BE /* ViewController */,
+				B6F0E30F220CD482008494BE /* Model Controller */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +195,8 @@
 				B6F0E30B220CD392008494BE /* Representative.swift in Sources */,
 				B6F0E30E220CD47F008494BE /* RepresentativeController.swift in Sources */,
 				B6F0E2F7220CD1CA008494BE /* AppDelegate.swift in Sources */,
+				B6F0E313220CE69F008494BE /* StateListTableViewController.swift in Sources */,
+				B6F0E311220CE672008494BE /* States.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
