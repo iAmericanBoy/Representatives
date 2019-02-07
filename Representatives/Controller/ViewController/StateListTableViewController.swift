@@ -27,14 +27,15 @@ class StateListTableViewController: UITableViewController {
         cell.textLabel?.text = States.all[indexPath.row]
         return cell
     }
-    /*
+    
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        //IIDOO
+        if segue.identifier == "toDetailTVC" {
+            guard let index = tableView.indexPathForSelectedRow else {return}
+            if let destinationTVC = segue.destination as? StateDetailTableViewController {
+                destinationTVC.state = States.all[index.row]
+            }
+        }
     }
-    */
-
 }

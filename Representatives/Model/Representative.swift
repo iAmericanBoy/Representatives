@@ -15,4 +15,5 @@ struct Representative: Codable {
     let phone: String
     let office: String
     let link: String
+    let district: String
 }
