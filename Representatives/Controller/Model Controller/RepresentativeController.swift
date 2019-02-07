@@ -28,6 +28,7 @@ class RepresentativeController: Codable {
             completion([])
             return
         }
+        print(url)
         let dataTask = URLSession.shared.dataTask(with: url) { (data, _, error) in
             if let error = error {
                 print("Error fetching data for \(state): \(error.localizedDescription)")

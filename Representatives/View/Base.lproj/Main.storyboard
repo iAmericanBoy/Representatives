@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="968.79999999999995" y="95.802098950524751"/>
         </scene>
-        <!--Table View Controller-->
+        <!--State Detail Table View Controller-->
         <scene sceneID="SwZ-3V-Xbg">
             <objects>
-                <tableViewController id="Aeb-IT-3YC" sceneMemberID="viewController">
+                <tableViewController id="Aeb-IT-3YC" customClass="StateDetailTableViewController" customModule="Representatives" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="0jh-Rg-8Ee">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
