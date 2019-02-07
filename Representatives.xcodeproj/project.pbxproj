@@ -12,6 +12,7 @@
 		B6F0E2FE220CD1CE008494BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6F0E2FD220CD1CE008494BE /* Assets.xcassets */; };
 		B6F0E301220CD1CE008494BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F0E2FF220CD1CE008494BE /* LaunchScreen.storyboard */; };
 		B6F0E30B220CD392008494BE /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F0E30A220CD392008494BE /* Representative.swift */; };
+		B6F0E30E220CD47F008494BE /* RepresentativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F0E30D220CD47F008494BE /* RepresentativeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B6F0E300220CD1CE008494BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6F0E302220CD1CE008494BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6F0E30A220CD392008494BE /* Representative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Representative.swift; sourceTree = "<group>"; };
+		B6F0E30D220CD47F008494BE /* RepresentativeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentativeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				B6F0E2F6220CD1CA008494BE /* AppDelegate.swift */,
 				B6F0E30C220CD399008494BE /* Model */,
 				B6F0E309220CD1F9008494BE /* View */,
+				B6F0E30F220CD482008494BE /* Model Controller */,
 				B6F0E308220CD1EF008494BE /* Resources */,
 			);
 			path = Representatives;
@@ -86,6 +89,14 @@
 				B6F0E30A220CD392008494BE /* Representative.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B6F0E30F220CD482008494BE /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B6F0E30D220CD47F008494BE /* RepresentativeController.swift */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6F0E30B220CD392008494BE /* Representative.swift in Sources */,
+				B6F0E30E220CD47F008494BE /* RepresentativeController.swift in Sources */,
 				B6F0E2F7220CD1CA008494BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
